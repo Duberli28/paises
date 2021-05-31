@@ -1,0 +1,47 @@
+<h1>Por país</h1>
+<hr>
+
+<div class="row">
+  <div class="col">
+    <form (ngSubmit)="buscar()" action="" autocomplete="off">
+      <input
+        type="text"
+        placeholder="buscar..."
+        name="txtbuscar"
+        class="form-control"
+        [(ngModel)]="termino"
+        >
+    </form>
+  </div>
+</div>
+<hr>
+
+<div class="alert alert-danger">
+  No se encontró nada con el termino de busqueda ingresado: eewdce33
+</div>
+<div class="row">
+  <div class="col">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Nº</th>
+          <th>Bandera</th>
+          <th>Nombre</th>
+          <th>Población</th>
+          <th>ir</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <th>Perú</th>
+          <th>peru</th>
+          <th>1223323</th>
+          <th><a href="sss">ver</a></th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
